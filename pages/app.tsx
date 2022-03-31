@@ -8,7 +8,7 @@ import { Environment } from '@react-three/drei'
 
 export default function App() {
   return (
-    <Container>
+    <div>
       <Canvas>
         <Controls />
         <Suspense fallback={null}>
@@ -16,7 +16,7 @@ export default function App() {
           <Environment preset="sunset"  />
         </Suspense>
       </Canvas>
-    </Container>
+    </div>
   )
 }
 
